@@ -11,7 +11,7 @@ import com.squareup.leakcanary.LeakCanary;
 
 
 /**
- * author: liminjie
+ * author: zsj
  * date: 2017/2/27
  * desc: MyApplication自定义
  */
@@ -27,7 +27,7 @@ public class App extends Application {
     public static App getInstance() {
         return instance;
     }
-
+//hahahahhahahha
     public static Context getContext() {
         return getInstance().getApplicationContext();
     }
